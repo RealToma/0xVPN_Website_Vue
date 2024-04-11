@@ -12,13 +12,13 @@
 
       <div data-aos="fade-up" class="w-full flex justify-center items-center gap-[23px] pt-[50px]">
         <button
-          class="flex items-center hover:cursor-pointer bg-[#FCBB14] hover:border-transparent text-[#121829] px-[38px] rounded-[23px] font-medium py-[13px] text-base hover:bg-white duration-[0.3s] transition-all">
+          class="flex items-center hover:cursor-pointer hover:bg-[#FCBB14] hover:border-transparent duration-[0.3s] px-[38px] border border-black rounded-[23px] font-medium py-[13px] bg-black text-white text-base">
           <div class="flex mr-[5px]"><img src="/mac.png" width="20px" alt="mac" /></div>
           <div class="flex">Download for Mac</div>
 
         </button>
         <button
-          class="flex items-center hover:cursor-pointer hover:bg-[#1B255C] hover:border-transparent duration-[0.3s] px-[38px] border border-black rounded-[23px] font-medium py-[13px] bg-black text-white text-base">
+          class="flex items-center hover:cursor-pointer hover:bg-[#FCBB14] hover:border-transparent duration-[0.3s] px-[38px] border border-black rounded-[23px] font-medium py-[13px] bg-black text-white text-base">
           <div class="flex mr-[5px]"><img src="/windows.png" width="20px" alt="mac" /></div>
           <div class="flex">Download for Windows</div>
 
