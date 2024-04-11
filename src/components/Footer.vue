@@ -53,7 +53,7 @@ import InstagramIcon from './icons/Instagram.vue'
           </div>
         </div>
         <div class="flex flex-col items-end">
-          <p class="text-[13px] font-light text-white opacity-60">Socail Media</p>
+          <p class="text-[13px] font-light text-white opacity-60">social Media</p>
           <ul class="flex gap-x-[44px] mt-[15px]">
             <li>
               <a

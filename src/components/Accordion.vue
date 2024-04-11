@@ -6,6 +6,7 @@ const setIsOpen = (value: boolean) => {
 }
 const { title, content } = defineProps(['title', 'content'])
 </script>
+
 <template>
   <div data-aos="fade-up" class="w-full pl-10 border-[#152329] border-[2px]">
     <div
@@ -22,8 +23,8 @@ const { title, content } = defineProps(['title', 'content'])
       </div>
     </div>
     <div
-      v-if="isOpen"
-      class="pl-[60px] font-light leading-4 lg:leading-9 text-xs lg:text-xl text-white pt-5 pb-[32px]"
+      class="pl-[60px] font-light leading-4 lg:leading-9 text-xs lg:text-xl text-white transation-all overflow-hidden duration-300"
+      :class="{ 'max-h-40': isOpen, 'max-h-0': !isOpen, 'pt-5': isOpen, 'pb-[32px]': isOpen }"
     >
       {{ content }}
     </div>

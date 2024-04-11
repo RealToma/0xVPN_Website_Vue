@@ -20,7 +20,7 @@
         </p>
         <div data-aos="fade-up" class="w-full flex gap-[23px]">
           <button
-            class="hover:cursor-pointer bg-[#FCBB14] hover:border-transparent text-[#121829] px-[38px] rounded-[23px] font-medium py-[13px] bg-[#1B255C] text-base hover:bg-white duration-[0.3s] transition-all"
+            class="hover:cursor-pointer bg-[#FCBB14] hover:border-transparent text-[#121829] px-[38px] rounded-[23px] font-medium py-[13px] text-base hover:bg-white duration-[0.3s] transition-all"
           >
             Launch VPN Bot
           </button>
