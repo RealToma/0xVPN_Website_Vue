@@ -6,7 +6,7 @@ const setOpen = (value: boolean) => {
 }
 </script>
 <template>
-  <header class="w-full h-[155px] z-30 bg-[#1B255C] fixed top-0 border-b border-black">
+  <header class="w-full h-[155px] z-30 bg-[#1B255C] fixed top-0">
     <div class="container pr-6 lg:pr-0 flex justify-between items-center">
       <a href="#" class="z-10">
         <img src="../assets/logo.png" alt="" />
@@ -16,20 +16,20 @@ const setOpen = (value: boolean) => {
         :class="{ 'left-0': open, '-left-full': !open }"
       >
         <li>
-          <a href="#P2P">P2P</a>
+          <a href="#P2P" class="transition-all hover:text-[#FCBB14]">P2P</a>
         </li>
         <li>
-          <a href="#token">Token</a>
+          <a href="#token" class="transition-all hover:text-[#FCBB14]">Token</a>
         </li>
 
         <li>
-          <a href="#roadmap">Roadmap</a>
+          <a href="#roadmap" class="transition-all hover:text-[#FCBB14]">Roadmap</a>
         </li>
         <li>
-          <a href="#docs">Docs</a>
+          <a href="#docs" class="transition-all hover:text-[#FCBB14]">Docs</a>
         </li>
         <li>
-          <a href="#VPN">$VPN</a>
+          <a href="#VPN" class="transition-all hover:text-[#FCBB14]">$VPN</a>
         </li>
         <li>
           <button

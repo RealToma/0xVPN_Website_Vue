@@ -16,7 +16,7 @@ const props = defineProps(['prices'])
       >
         <img
           className="w-[31px] h-[31px]"
-          :src="'src/assets/' + item.icon + '.png'"
+          :src="'/assets/' + item.icon + '.png'"
           :alt="item.icon"
         />
         {{ item.title }}

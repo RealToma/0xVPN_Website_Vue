@@ -49,7 +49,7 @@ Id placerat dui habitasse quisque nisl tincidunt facilisi mi id. Dictum elit vel
           />
         </div>
         <div data-aos="fade-up">
-          <div class="flex justify-center items-center w-full lg:w-[668px] h-full bg-[#1B255C]">
+          <div class="flex justify-center items-center w-full lg:w-[668px] h-[796px] bg-[#1B255C]">
             <img src="../assets/demo-img.png" alt="" />
           </div>
         </div>

@@ -1,5 +1,5 @@
 <template>
-  <section id="P2P" class="border-b px-5 w-full pt-[26px] pb-[75px] bg-[#1D1C3E]">
+  <section id="P2P" class="px-5 w-full pt-[26px] pb-[75px] bg-[#1D1C3E]">
     <div class="container lg:px-0">
       <h1
         class="text-center font-semibold leading-[87px] text-4xl lg:text-[64px] text-white"
