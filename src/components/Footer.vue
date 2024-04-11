@@ -1,5 +1,10 @@
+<script setup lang="ts">
+import TwitterIcon from './icons/Twitter.vue'
+import FacebookIcon from './icons/Facebook.vue'
+import InstagramIcon from './icons/Instagram.vue'
+</script>
 <template>
-  <footer class="bg-[#1B255C] py-5">
+  <footer class="bg-[#1B255C] py-16">
     <div class="container px-2 lg:px-0">
       <div class="grid px-0 lg:px-[109px] grid-cols-1 gap-y-8 lg:grid-cols-4">
         <div>
@@ -7,13 +12,13 @@
           <div>
             <ul class="flex flex-col gap-4 font-normal text-[19px] leading-6 text-white mt-[15px]">
               <li>
-                <a href="">Features</a>
+                <a href="" class="transition-all hover:text-[#FCBB14]">Features</a>
               </li>
               <li>
-                <a href="">Pricing</a>
+                <a href="" class="transition-all hover:text-[#FCBB14]">Pricing</a>
               </li>
               <li>
-                <a href="">Book a demo</a>
+                <a href="" class="transition-all hover:text-[#FCBB14]">Book a demo</a>
               </li>
             </ul>
           </div>
@@ -23,13 +28,13 @@
           <div>
             <ul class="flex flex-col gap-4 font-normal text-[19px] leading-6 text-white mt-[15px]">
               <li>
-                <a href="">Features</a>
+                <a href="" class="transition-all hover:text-[#FCBB14]">Features</a>
               </li>
               <li>
-                <a href="">Pricing</a>
+                <a href="" class="transition-all hover:text-[#FCBB14]">Pricing</a>
               </li>
               <li>
-                <a href="">Book a demo</a>
+                <a href="" class="transition-all hover:text-[#FCBB14]">Book a demo</a>
               </li>
             </ul>
           </div>
@@ -39,10 +44,10 @@
           <div>
             <ul class="flex flex-col gap-4 font-normal text-[19px] leading-6 text-white mt-[15px]">
               <li>
-                <a href="">Events</a>
+                <a href="" class="transition-all hover:text-[#FCBB14]">Events</a>
               </li>
               <li>
-                <a href="">Blog</a>
+                <a href="" class="transition-all hover:text-[#FCBB14]">Blog</a>
               </li>
             </ul>
           </div>
@@ -51,18 +56,18 @@
           <p class="text-[13px] font-light text-white opacity-60">Socail Media</p>
           <ul class="flex gap-x-[44px] mt-[15px]">
             <li>
-              <a href="">
-                <img src="../assets/facebook.png" alt="" />
+              <a href="" class="transition-all hover:text-[#FCBB14] text-white">
+                <FacebookIcon />
               </a>
             </li>
             <li>
-              <a href="">
-                <img src="../assets/twitter.png" alt="" />
+              <a href="" class="transition-all hover:text-[#FCBB14] text-white">
+                <TwitterIcon />
               </a>
             </li>
             <li>
-              <a href="">
-                <img src="../assets/instagram.png" alt="" />
+              <a href="" class="transition-all hover:text-[#FCBB14] text-white">
+                <InstagramIcon />
               </a>
             </li>
           </ul>

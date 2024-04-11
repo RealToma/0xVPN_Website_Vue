@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import ArrowRight from './Arrow-right.vue'
+import ArrowRight from './icons/Arrow-right.vue'
 </script>
 <template>
   <section id="P2P" class="px-5 w-full pt-[70px] pb-[70px] bg-[#1D1C3E]">

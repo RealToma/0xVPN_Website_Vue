@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import ArrowRight from './Arrow-right.vue'
+import ArrowRight from './icons/Arrow-right.vue'
 </script>
 <template>
   <section id="token" class="pt-[70px] pb-[70px] bg-[#1D1C3E]">
@@ -54,13 +54,15 @@ import ArrowRight from './Arrow-right.vue'
               <td class="py-8 text-center border border-white font-medium text-base lg:text-[26px]">
                 Supply
               </td>
-              <td class="py-8 border border-white font-medium text-base lg:text-[26px] pl-2">
+              <td
+                class="pl-[30px] py-8 border border-white font-medium text-base lg:text-[26px] pl-2"
+              >
                 100,000,000 VPN
               </td>
             </tr>
             <tr>
               <td class="py-8 text-center border border-white font-medium text-[26px]">Taxes</td>
-              <td class="py-8 border border-white font-medium text-base lg:text-[26px] pl-2">
+              <td class="pl-[30px] py-8 border border-white font-medium text-base lg:text-[26px]">
                 5% Buy, 5% Sell
               </td>
             </tr>
@@ -68,7 +70,9 @@ import ArrowRight from './Arrow-right.vue'
               <td class="py-8 text-center border border-white font-medium text-base lg:text-[26px]">
                 Team Tokens
               </td>
-              <td class="py-8 border border-white font-medium text-base lg:text-[26px] pl-2">
+              <td
+                class="pl-[30px] py-8 border border-white font-medium text-base lg:text-[26px] pl-2"
+              >
                 0%, Fair Launch
               </td>
             </tr>

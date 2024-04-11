@@ -2,7 +2,7 @@
 <template>
   <section class="w-full h-screen hero-section">
     <div class="container px-5 lg:px-0 pt-[155px] flex">
-      <div class="w-full lg:w-[50%] pt-[51px]">
+      <div class="w-full lg:w-[50%] pt-[90px]">
         <h1
           data-aos="fade-up"
           class="font-bold text-4xl lg:text-[65px] leading-10 lg:leading-[88px] text-white"
