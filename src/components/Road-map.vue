@@ -100,10 +100,7 @@ const prices3 = {
 <template>
   <section id="roadmap" className="w-full px-8 lg:px-0 pt-[155px] pb-[45px] bg-[#1D1C3E]">
     <div className="container px-2 lg:px-0">
-      <h1
-        data-aos="fade-up"
-        className="text-center font-bold text-5xl lg:text-[64px] leading-[87px] text-white"
-      >
+      <h1 data-aos="fade-up" className="text-center font-bold text-5xl lg:text-[64px] leading-[87px] text-white">
         Roadmap
       </h1>
       <div className="grid gap-y-10 gap-x-0 lg:gap-x-[69px] grid-cols-1 lg:grid-cols-3">

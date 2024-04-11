@@ -56,29 +56,17 @@ import InstagramIcon from './icons/Instagram.vue'
           <p class="text-[13px] font-light text-white opacity-60">social Media</p>
           <ul class="flex gap-x-[44px] mt-[15px]">
             <li>
-              <a
-                href="https://facebook.com"
-                target="_blank"
-                class="transition-all hover:text-[#FCBB14] text-white"
-              >
+              <a href="https://facebook.com" target="_blank" class="transition-all hover:text-[#FCBB14] text-white">
                 <FacebookIcon />
               </a>
             </li>
             <li>
-              <a
-                href="https://twitter.com"
-                target="_blank"
-                class="transition-all hover:text-[#FCBB14] text-white"
-              >
+              <a href="https://twitter.com" target="_blank" class="transition-all hover:text-[#FCBB14] text-white">
                 <TwitterIcon />
               </a>
             </li>
             <li>
-              <a
-                href="https://instagram.com"
-                target="_blank"
-                class="transition-all hover:text-[#FCBB14] text-white"
-              >
+              <a href="https://instagram.com" target="_blank" class="transition-all hover:text-[#FCBB14] text-white">
                 <InstagramIcon />
               </a>
             </li>

@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import ArrowRight from './icons/Arrow-right.vue'
 </script>
 <template>
   <section id="P2P" class="px-5 w-full pt-[120px] pb-[70px] bg-[#1D1C3E]">
@@ -13,12 +12,16 @@ import ArrowRight from './icons/Arrow-right.vue'
 
       <div data-aos="fade-up" class="w-full flex justify-center items-center gap-[23px] pt-[50px]">
         <button
-          class="hover:cursor-pointer bg-[#FCBB14] hover:border-transparent text-[#121829] px-[38px] rounded-[23px] font-medium py-[13px] text-base hover:bg-white duration-[0.3s] transition-all">
-          Download for Mac
+          class="flex items-center hover:cursor-pointer bg-[#FCBB14] hover:border-transparent text-[#121829] px-[38px] rounded-[23px] font-medium py-[13px] text-base hover:bg-white duration-[0.3s] transition-all">
+          <div class="flex mr-[5px]"><img src="/mac.png" width="20px" alt="mac" /></div>
+          <div class="flex">Download for Mac</div>
+
         </button>
         <button
-          class="hover:cursor-pointer hover:bg-white hover:border-transparent hover:text-[#121829] duration-[0.3s] px-[38px] border border-white rounded-[23px] font-medium py-[13px] bg-[#1B255C] text-white text-base">
-          Download for Windows
+          class="flex items-center hover:cursor-pointer hover:bg-[#1B255C] hover:border-transparent duration-[0.3s] px-[38px] border border-black rounded-[23px] font-medium py-[13px] bg-black text-white text-base">
+          <div class="flex mr-[5px]"><img src="/windows.png" width="20px" alt="mac" /></div>
+          <div class="flex">Download for Windows</div>
+
         </button>
       </div>
     </div>
