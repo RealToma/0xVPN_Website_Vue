@@ -1,5 +1,5 @@
 <template>
-  <section id="docs" class="bg-[#1B255C] pt-[36px] pb-[106px]">
+  <section id="docs" class="bg-[#1B255C] pt-[70px] pb-[70px]">
     <div class="container px-2 lg:px-0">
       <h3
         data-aos="fade-up"
@@ -20,92 +20,98 @@
         The strength of VPN lies in collaboration. With partners, operators, and the wider crypto
         community, we're forging an interconnected future for decentralized systems.
       </p>
-      <div class="grid grid-cols-2 lg:grid-cols-7 gap-y-[55px] gap-x-[36px] mt-[76px]">
-        <div
-          data-aos="fade-up"
-          class="border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]"
-        >
-          <img src="../assets/pic-1.png" alt="" />
+      <Vue3Marquee direction="reverse">
+        <div class="flex gap-y-[55px] gap-x-[36px] mt-[76px]">
+          <div
+            data-aos="fade-up"
+            class="w-[189px] ml-[36px] border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]"
+          >
+            <img src="../assets/pic-1.png" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            class="w-[189px] border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]"
+          >
+            <img src="../assets/pic-2.png" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            class="w-[189px] border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]"
+          >
+            <img src="../assets/pic-3.png" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            class="w-[189px] border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]"
+          >
+            <img src="../assets/pic-4.png" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            class="w-[189px] border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]"
+          >
+            <img src="../assets/pic-5.png" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            class="w-[189px] border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]"
+          >
+            <img src="../assets/pic-6.png" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            class="w-[189px] border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]"
+          >
+            <img src="../assets/pic-7.png" alt="" />
+          </div>
         </div>
-        <div
-          data-aos="fade-up"
-          class="border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]"
-        >
-          <img src="../assets/pic-2.png" alt="" />
+      </Vue3Marquee>
+      <Vue3Marquee>
+        <div class="flex gap-y-[55px] gap-x-[36px] mt-[76px]">
+          <div
+            data-aos="fade-up"
+            class="w-[189px] ml-[36px] border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]"
+          >
+            <img src="../assets/pic-1.png" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            class="w-[189px] border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]"
+          >
+            <img src="../assets/pic-2.png" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            class="w-[189px] border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]"
+          >
+            <img src="../assets/pic-3.png" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            class="w-[189px] border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]"
+          >
+            <img src="../assets/pic-4.png" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            class="w-[189px] border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]"
+          >
+            <img src="../assets/pic-5.png" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            class="w-[189px] border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]"
+          >
+            <img src="../assets/pic-6.png" alt="" />
+          </div>
+          <div
+            data-aos="fade-up"
+            class="w-[189px] border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]"
+          >
+            <img src="../assets/pic-7.png" alt="" />
+          </div>
         </div>
-        <div
-          data-aos="fade-up"
-          class="border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]"
-        >
-          <img src="../assets/pic-3.png" alt="" />
-        </div>
-        <div
-          data-aos="fade-up"
-          class="border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]"
-        >
-          <img src="../assets/pic-4.png" alt="" />
-        </div>
-        <div
-          data-aos="fade-up"
-          class="border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]"
-        >
-          <img src="../assets/pic-5.png" alt="" />
-        </div>
-        <div
-          data-aos="fade-up"
-          class="border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]"
-        >
-          <img src="../assets/pic-6.png" alt="" />
-        </div>
-        <div
-          data-aos="fade-up"
-          class="border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]"
-        >
-          <img src="../assets/pic-7.png" alt="" />
-        </div>
-        <div
-          data-aos="fade-up"
-          class="border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]"
-        >
-          <img src="../assets/pic-1.png" alt="" />
-        </div>
-        <div
-          data-aos="fade-up"
-          class="border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]"
-        >
-          <img src="../assets/pic-2.png" alt="" />
-        </div>
-        <div
-          data-aos="fade-up"
-          class="border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]"
-        >
-          <img src="../assets/pic-3.png" alt="" />
-        </div>
-        <div
-          data-aos="fade-up"
-          class="border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]"
-        >
-          <img src="../assets/pic-4.png" alt="" />
-        </div>
-        <div
-          data-aos="fade-up"
-          class="border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]"
-        >
-          <img src="../assets/pic-5.png" alt="" />
-        </div>
-        <div
-          data-aos="fade-up"
-          class="border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]"
-        >
-          <img src="../assets/pic-6.png" alt="" />
-        </div>
-        <div
-          data-aos="fade-up"
-          class="border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]"
-        >
-          <img src="../assets/pic-7.png" alt="" />
-        </div>
-      </div>
+      </Vue3Marquee>
     </div>
   </section>
 </template>

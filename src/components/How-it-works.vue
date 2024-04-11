@@ -1,5 +1,8 @@
+<script setup lang="ts">
+import ArrowRight from './Arrow-right.vue'
+</script>
 <template>
-  <section id="P2P" class="px-5 w-full pt-[26px] pb-[75px] bg-[#1D1C3E]">
+  <section id="P2P" class="px-5 w-full pt-[70px] pb-[70px] bg-[#1D1C3E]">
     <div class="container lg:px-0">
       <h1
         class="text-center font-semibold leading-[87px] text-4xl lg:text-[64px] text-white"
@@ -31,10 +34,11 @@
             usage, creating a decentralized VPN marketplace.
           </p>
           <button
-            class="rounded-[27px] mt-[76px] text-white flex text-xl leading-[26px] items-center justify-between border-[3px] border-white px-[30px] py-[12px]"
+            class="rounded-[27px] mt-[76px] text-white flex text-xl leading-[26px] items-center justify-between border border-white px-[30px] py-[12px] hover:bg-white hover:text-[#121829] duration-[0.3s] transition-all"
           >
             Become a Node
-            <img src="../assets/arrow-right-icon.svg" alt="" class="mt-1 ml-4" />
+
+            <ArrowRight />
           </button>
         </div>
         <div class="w-full lg:w-1/2">

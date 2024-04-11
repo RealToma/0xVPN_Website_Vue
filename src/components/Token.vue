@@ -1,5 +1,8 @@
+<script setup lang="ts">
+import ArrowRight from './Arrow-right.vue'
+</script>
 <template>
-  <section id="token" class="pt-2.5 pb-[55px] bg-[#1D1C3E]">
+  <section id="token" class="pt-[70px] pb-[70px] bg-[#1D1C3E]">
     <div class="container px-2 lg:px-0">
       <h1
         class="text-[40px] lg:text-[64px] leading-[40px] lg:leading-[87.42px] font-medium text-center text-white"
@@ -81,13 +84,13 @@
           </p>
           <div data-aos="fade-up" class="flex flex-col lg:flex-row gap-[21px] mt-[75px]">
             <button
-              class="flex items-center py-3 border-[3px] px-[30px] border-white rounded-[27px] text-base lg:text-xl leading-[26px] justify-between font-medium text-white"
+              class="flex items-center py-3 border px-[30px] border-white rounded-[27px] text-base lg:text-xl leading-[26px] justify-between font-medium text-white hover:bg-white hover:text-[#121829] duration-[0.3s] transition-all"
             >
               Buy $VPN Token
-              <img src="../assets/arrow-right-icon.svg" alt="" class="mt-1 ml-4" />
+              <ArrowRight />
             </button>
             <button
-              class="flex items-center max-w-full line-clamp-1 py-3 border-[3px] px-[30px] bg-[#657FCB] border-white rounded-[27px] text-base lg:text-xl leading-[26px] font-medium text-white0"
+              class="flex items-center max-w-full line-clamp-1 py-3 border px-[30px] bg-[#657FCB] border-white rounded-[27px] text-base lg:text-xl leading-[26px] font-medium text-white0"
             >
               0xf898bae008cd85046431ab0a75f00689d6aa1b1c
             </button>

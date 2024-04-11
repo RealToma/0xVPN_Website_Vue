@@ -2,7 +2,7 @@
 import Accordion from './Accordion.vue'
 </script>
 <template>
-  <section id="VPN" class="bg-[#1D1C3E] pb-[147px] px-2 lg:px-0">
+  <section id="VPN" class="bg-[#1D1C3E] pb-[147px] pt-[70px] px-2 lg:px-0">
     <div class="container">
       <h1
         data-aos="fade-up"

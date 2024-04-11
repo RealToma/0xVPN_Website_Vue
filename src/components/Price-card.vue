@@ -23,7 +23,7 @@ const props = defineProps(['prices'])
       </li>
     </ul>
     <button
-      className="absolute w-full left-0 rounded-[53px] bottom-[-10px] py-[21px] bg-[#FCBB14] text-[30px] leading-10"
+      className="absolute w-full left-0 rounded-[53px] bottom-[-10px] py-[21px] bg-[#FCBB14] text-[30px] leading-10 hover:bg-white duration-[0.3s] transition-all"
     >
       {{ props.prices.buttonTitle }}
     </button>

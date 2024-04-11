@@ -15,7 +15,7 @@ const { title, content } = defineProps(['title', 'content'])
       <p class="text-6 leading-[28px] text-white">01</p>
       <p class="text-xs lg:text-2xl ml-10 leading-[28px] text-white pr-20">{{ title }}</p>
       <div
-        class="w-[80px] h-full absolute flex justify-center items-center text-4xl right-0"
+        class="w-[60px] h-[60px] absolute flex justify-center items-center text-4xl right-0 rounded-r-[8px] hover:bg-white duration-[0.3s] transition-all"
         :class="{ 'bg-[#657FCB]': isOpen, 'bg-[#FCBB14]': !isOpen }"
       >
         {{ !isOpen ? '+' : '-' }}

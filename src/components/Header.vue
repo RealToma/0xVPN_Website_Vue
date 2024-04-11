@@ -33,7 +33,7 @@ const setOpen = (value: boolean) => {
         </li>
         <li>
           <button
-            class="px-[50px] py-[11px] bg-[#FCBB14] rounded-[14px] font-bold text-lg text-[#121829]"
+            class="px-[50px] py-[11px] bg-[#FCBB14] rounded-[14px] font-bold text-lg text-[#121829] hover:bg-white duration-[0.3s] transition-all"
           >
             dApp
           </button>

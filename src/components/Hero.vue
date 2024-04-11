@@ -19,12 +19,12 @@
         </p>
         <div data-aos="fade-up" class="w-full flex gap-[23px]">
           <button
-            class="hover:cursor-pointer hover:bg-[#FCBB14] hover:border-transparent hover:text-[#121829] duration-[0.3s] px-[38px] border border-white rounded-[23px] font-medium py-[13px] bg-[#1B255C] text-white text-base"
+            class="hover:cursor-pointer bg-[#FCBB14] hover:border-transparent text-[#121829] duration-[0.3s] px-[38px] rounded-[23px] font-medium py-[13px] bg-[#1B255C] text-base hover:bg-white duration-[0.3s] transition-all"
           >
             Launch VPN Bot
           </button>
           <button
-            class="hover:cursor-pointer hover:bg-[#FCBB14] hover:border-transparent hover:text-[#121829] duration-[0.3s] px-[38px] border border-white rounded-[23px] font-medium py-[13px] bg-[#1B255C] text-white text-base"
+            class="hover:cursor-pointer hover:bg-white hover:border-transparent hover:text-[#121829] duration-[0.3s] px-[38px] border border-white rounded-[23px] font-medium py-[13px] bg-[#1B255C] text-white text-base"
           >
             Become a Node
           </button>
