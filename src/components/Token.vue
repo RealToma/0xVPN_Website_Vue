@@ -95,6 +95,7 @@ import ArrowRight from './icons/Arrow-right.vue'
             </button>
             <button
               class="flex items-center max-w-full line-clamp-1 py-3 border px-[30px] bg-[#657FCB] border-white rounded-[27px] text-base lg:text-xl leading-[26px] font-medium text-white0"
+              onclick="window.open('https://www.google.com/')"
             >
               0xf898bae008cd85046431ab0a75f00689d6aa1b1c
             </button>

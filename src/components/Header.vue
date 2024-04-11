@@ -9,7 +9,7 @@ const setOpen = (value: boolean) => {
 }
 </script>
 <template>
-  <header class="w-full h-[155px] z-30 bg-[#1B255C] fixed top-0">
+  <header class="w-full h-[155px] z-30 bg-[#1B255C] fixed top-0 border-b border-[#657fcb]">
     <div class="container pr-6 lg:pr-0 flex justify-between items-center">
       <a href="#" class="z-10">
         <img src="/logo.svg" alt="" />
@@ -58,7 +58,7 @@ const setOpen = (value: boolean) => {
         <div class="w-full h-[5px] bg-white rounded-md"></div>
       </div>
       <div
-        class="fixed w-full lg:hidden top-0 h-screen bg-[#1B255C] flex justify-start px-8 transition-all"
+        class="fixed w-full lg:hidden top-0 h-screen bg-[#1B255C] flex justify-start px-14 transition-all"
         :class="{ 'left-0': open, '-left-full': !open }"
       >
         <ul
