@@ -2,7 +2,7 @@
 import ArrowRight from './icons/Arrow-right.vue'
 </script>
 <template>
-  <section id="token" class="pt-[70px] pb-[70px] bg-[#1D1C3E]">
+  <section id="token" class="pt-[155px] pb-[70px] bg-[#1D1C3E]">
     <div class="container px-2 lg:px-0">
       <h1
         class="text-[40px] lg:text-[64px] leading-[40px] lg:leading-[87.42px] font-medium text-center text-white"
@@ -11,7 +11,7 @@ import ArrowRight from './icons/Arrow-right.vue'
         $VPN TOKEN
       </h1>
       <p
-        class="text-center font-medium text-base lg:text-xl lg:text-[26px] text-white mt-[28px] mb-[52px]"
+        class="text-center font text-xl lg:text-[30px] leading-7 lg:leading-[41px] mt-[53px] mb-[70px] text-white"
         data-aos="fade-up"
       >
         $VPN is the native token of the 0xVPN network.
@@ -20,7 +20,7 @@ import ArrowRight from './icons/Arrow-right.vue'
         <div
           class="w-full lg:w-[617px] flex justify-center items-center flex-col gap-[53px] h-[722px] bg-[#1B255C] rounded-[15px]"
         >
-          <img src="../assets/chart.png" alt="" />
+          <img src="/chart.png" alt="" />
           <div>
             <ul data-aos="fade-up" class="font-medium text-[26px] text-white flex-col gap-[18px]">
               <li class="flex gap-4 items-center">

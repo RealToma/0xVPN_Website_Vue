@@ -6,7 +6,7 @@ import InstagramIcon from './icons/Instagram.vue'
 <template>
   <footer class="bg-[#1B255C] py-16">
     <div class="container px-2 lg:px-0">
-      <div class="grid px-0 lg:px-[109px] grid-cols-1 gap-y-8 lg:grid-cols-4">
+      <div class="grid px-0 grid-cols-1 gap-y-8 lg:grid-cols-4">
         <div>
           <p class="text-[13px] font-light text-white opacity-60">Product</p>
           <div>
@@ -52,7 +52,7 @@ import InstagramIcon from './icons/Instagram.vue'
             </ul>
           </div>
         </div>
-        <div>
+        <div class="flex flex-col items-end">
           <p class="text-[13px] font-light text-white opacity-60">Socail Media</p>
           <ul class="flex gap-x-[44px] mt-[15px]">
             <li>

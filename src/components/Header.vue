@@ -8,8 +8,8 @@ const setOpen = (value: boolean) => {
 <template>
   <header class="w-full h-[155px] z-30 bg-[#1B255C] fixed top-0">
     <div class="container pr-6 lg:pr-0 flex justify-between items-center">
-      <a href="#" class="z-10">
-        <img src="../assets/logo.png" alt="" />
+      <a href="#" class="z-10 w-[287px] h-[134px]">
+        <img src="/logo.png" alt="" />
       </a>
       <ul
         class="fixed lg:static transition-all top-0 w-full lg:w-auto bg-[#1B255C] h-screen lg:h-auto flex justify-center items-center flex-col lg:flex-row gap-[30px] lg:gap-[57px] text-white font-normal text-xl"

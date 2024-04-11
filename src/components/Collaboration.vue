@@ -23,83 +23,84 @@
       <Vue3Marquee
         direction="reverse"
         gradient="true"
-        gradientColor="rgba(0,65,40)"
+        :gradientColor="[27, 32, 97]"
+        gradientLength="10%"
         gradientWith="140px"
       >
         <div class="flex gap-y-[55px] gap-x-[36px] mt-[76px]">
           <div
             class="w-[189px] ml-[36px] border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]"
           >
-            <img src="../assets/pic-1.png" alt="" />
+            <img src="/pic-1.png" alt="" />
           </div>
           <div
             class="w-[189px] border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]"
           >
-            <img src="../assets/pic-2.png" alt="" />
+            <img src="/pic-2.png" alt="" />
           </div>
           <div
             class="w-[189px] border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]"
           >
-            <img src="../assets/pic-3.png" alt="" />
+            <img src="/pic-3.png" alt="" />
           </div>
           <div
             class="w-[189px] border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]"
           >
-            <img src="../assets/pic-4.png" alt="" />
+            <img src="/pic-4.png" alt="" />
           </div>
           <div
             class="w-[189px] border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]"
           >
-            <img src="../assets/pic-5.png" alt="" />
+            <img src="/pic-5.png" alt="" />
           </div>
           <div
             class="w-[189px] border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]"
           >
-            <img src="../assets/pic-6.png" alt="" />
+            <img src="/pic-6.png" alt="" />
           </div>
           <div
             class="w-[189px] border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]"
           >
-            <img src="../assets/pic-7.png" alt="" />
+            <img src="/pic-7.png" alt="" />
           </div>
         </div>
       </Vue3Marquee>
-      <Vue3Marquee gradient="true" gradientColor="rgba(0,65,40)" gradientWith="140px">
+      <Vue3Marquee gradient="true" :gradientColor="[27, 37, 92]" gradientLength="10%">
         <div class="flex gap-y-[55px] gap-x-[36px] mt-[76px]">
           <div
             class="w-[189px] ml-[36px] border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]"
           >
-            <img src="../assets/pic-1.png" alt="" />
+            <img src="/pic-1.png" alt="" />
           </div>
           <div
             class="w-[189px] border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]"
           >
-            <img src="../assets/pic-2.png" alt="" />
+            <img src="/pic-2.png" alt="" />
           </div>
           <div
             class="w-[189px] border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]"
           >
-            <img src="../assets/pic-3.png" alt="" />
+            <img src="/pic-3.png" alt="" />
           </div>
           <div
             class="w-[189px] border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]"
           >
-            <img src="../assets/pic-4.png" alt="" />
+            <img src="/pic-4.png" alt="" />
           </div>
           <div
             class="w-[189px] border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]"
           >
-            <img src="../assets/pic-5.png" alt="" />
+            <img src="/pic-5.png" alt="" />
           </div>
           <div
             class="w-[189px] border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]"
           >
-            <img src="../assets/pic-6.png" alt="" />
+            <img src="/pic-6.png" alt="" />
           </div>
           <div
             class="w-[189px] border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]"
           >
-            <img src="../assets/pic-7.png" alt="" />
+            <img src="/pic-7.png" alt="" />
           </div>
         </div>
       </Vue3Marquee>

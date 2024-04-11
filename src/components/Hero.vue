@@ -7,7 +7,8 @@
           data-aos="fade-up"
           class="font-bold text-4xl lg:text-[65px] leading-10 lg:leading-[88px] text-white"
         >
-          Decentralized P2P VPN Network
+          Decentralized P2P <br />
+          VPN Network
           <span class="text-[#FCBB14]">!</span>
         </h1>
         <p
@@ -19,7 +20,7 @@
         </p>
         <div data-aos="fade-up" class="w-full flex gap-[23px]">
           <button
-            class="hover:cursor-pointer bg-[#FCBB14] hover:border-transparent text-[#121829] duration-[0.3s] px-[38px] rounded-[23px] font-medium py-[13px] bg-[#1B255C] text-base hover:bg-white duration-[0.3s] transition-all"
+            class="hover:cursor-pointer bg-[#FCBB14] hover:border-transparent text-[#121829] px-[38px] rounded-[23px] font-medium py-[13px] bg-[#1B255C] text-base hover:bg-white duration-[0.3s] transition-all"
           >
             Launch VPN Bot
           </button>
@@ -39,6 +40,6 @@
 .hero-section {
   background-size: cover;
   background-position: center;
-  background-image: url('../assets/hero-bg.png');
+  background-image: url('/hero-bg.png');
 }
 </style>
