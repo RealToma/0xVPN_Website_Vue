@@ -10,6 +10,7 @@ import FAQ from './components/Faq.vue'
 import Footer from './components/Footer.vue'
 
 import { onMounted } from 'vue'
+import DesktopClient from './components/DesktopClient.vue'
 onMounted(() => {
   AOS.init()
 })
@@ -18,6 +19,7 @@ onMounted(() => {
   <div>
     <Header />
     <Hero />
+    <DesktopClient />
     <Howitworks />
     <Token />
     <Collaboration />
