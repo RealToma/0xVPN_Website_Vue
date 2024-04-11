@@ -8,8 +8,8 @@ const setOpen = (value: boolean) => {
 <template>
   <header class="w-full h-[155px] z-30 bg-[#1B255C] fixed top-0">
     <div class="container pr-6 lg:pr-0 flex justify-between items-center">
-      <a href="#" class="z-10 w-[287px] h-[134px]">
-        <img src="/logo.png" alt="" />
+      <a href="#" class="z-10 w-[280px] h-[134px]">
+        <img src="/logo.svg" alt="" />
       </a>
       <ul
         class="fixed lg:static transition-all top-0 w-full lg:w-auto bg-[#1B255C] h-screen lg:h-auto flex justify-center items-center flex-col lg:flex-row gap-[30px] lg:gap-[57px] text-white font-normal text-xl"
@@ -21,16 +21,24 @@ const setOpen = (value: boolean) => {
         <li>
           <a href="#token" class="transition-all hover:text-[#FCBB14]">Token</a>
         </li>
-
+        <li>
+          <a href="#docs" class="transition-all hover:text-[#FCBB14]">Partner</a>
+        </li>
         <li>
           <a href="#roadmap" class="transition-all hover:text-[#FCBB14]">Roadmap</a>
         </li>
         <li>
-          <a href="#docs" class="transition-all hover:text-[#FCBB14]">Docs</a>
+          <a href="#VPN" class="transition-all hover:text-[#FCBB14]">FAQ</a>
         </li>
         <li>
-          <a href="#VPN" class="transition-all hover:text-[#FCBB14]">$VPN</a>
+          <a
+            href="https://app.uniswap.org/swap?chain=ethereum&outputCurrency=0xf898bae008cd85046431ab0a75f00689d6aa1b1c&inputCurrency=eth"
+            target="_blank"
+            class="transition-all hover:text-[#FCBB14]"
+            >Docs</a
+          >
         </li>
+
         <li>
           <button
             class="px-[50px] py-[11px] bg-[#FCBB14] rounded-[14px] font-bold text-lg text-[#121829] hover:bg-white duration-[0.3s] transition-all"

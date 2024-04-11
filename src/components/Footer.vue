@@ -12,13 +12,13 @@ import InstagramIcon from './icons/Instagram.vue'
           <div>
             <ul class="flex flex-col gap-4 font-normal text-[19px] leading-6 text-white mt-[15px]">
               <li>
-                <a href="" class="transition-all hover:text-[#FCBB14]">Features</a>
+                <a href="#" class="transition-all hover:text-[#FCBB14]">Features</a>
               </li>
               <li>
-                <a href="" class="transition-all hover:text-[#FCBB14]">Pricing</a>
+                <a href="#" class="transition-all hover:text-[#FCBB14]">Pricing</a>
               </li>
               <li>
-                <a href="" class="transition-all hover:text-[#FCBB14]">Book a demo</a>
+                <a href="#" class="transition-all hover:text-[#FCBB14]">Book a demo</a>
               </li>
             </ul>
           </div>
@@ -28,13 +28,13 @@ import InstagramIcon from './icons/Instagram.vue'
           <div>
             <ul class="flex flex-col gap-4 font-normal text-[19px] leading-6 text-white mt-[15px]">
               <li>
-                <a href="" class="transition-all hover:text-[#FCBB14]">Features</a>
+                <a href="#" class="transition-all hover:text-[#FCBB14]">Features</a>
               </li>
               <li>
-                <a href="" class="transition-all hover:text-[#FCBB14]">Pricing</a>
+                <a href="#" class="transition-all hover:text-[#FCBB14]">Pricing</a>
               </li>
               <li>
-                <a href="" class="transition-all hover:text-[#FCBB14]">Book a demo</a>
+                <a href="#" class="transition-all hover:text-[#FCBB14]">Book a demo</a>
               </li>
             </ul>
           </div>
@@ -44,10 +44,10 @@ import InstagramIcon from './icons/Instagram.vue'
           <div>
             <ul class="flex flex-col gap-4 font-normal text-[19px] leading-6 text-white mt-[15px]">
               <li>
-                <a href="" class="transition-all hover:text-[#FCBB14]">Events</a>
+                <a href="#" class="transition-all hover:text-[#FCBB14]">Events</a>
               </li>
               <li>
-                <a href="" class="transition-all hover:text-[#FCBB14]">Blog</a>
+                <a href="#" class="transition-all hover:text-[#FCBB14]">Blog</a>
               </li>
             </ul>
           </div>
@@ -56,17 +56,29 @@ import InstagramIcon from './icons/Instagram.vue'
           <p class="text-[13px] font-light text-white opacity-60">Socail Media</p>
           <ul class="flex gap-x-[44px] mt-[15px]">
             <li>
-              <a href="" class="transition-all hover:text-[#FCBB14] text-white">
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                class="transition-all hover:text-[#FCBB14] text-white"
+              >
                 <FacebookIcon />
               </a>
             </li>
             <li>
-              <a href="" class="transition-all hover:text-[#FCBB14] text-white">
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                class="transition-all hover:text-[#FCBB14] text-white"
+              >
                 <TwitterIcon />
               </a>
             </li>
             <li>
-              <a href="" class="transition-all hover:text-[#FCBB14] text-white">
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                class="transition-all hover:text-[#FCBB14] text-white"
+              >
                 <InstagramIcon />
               </a>
             </li>
@@ -77,13 +89,13 @@ import InstagramIcon from './icons/Instagram.vue'
       <div>
         <ul class="flex flex-col gap-4 lg:flex-row mt-8 mb-9 text-white">
           <li>
-            <a href="">© 2023 StealthNET. All right reserved.</a>
+            <a href="#">© 2023 StealthNET. All right reserved.</a>
           </li>
           <li>
-            <a href="">Privacy Policy</a>
+            <a href="#">Privacy Policy</a>
           </li>
           <li>
-            <a href="">Terms of Service</a>
+            <a href="#">Terms of Service</a>
           </li>
         </ul>
       </div>

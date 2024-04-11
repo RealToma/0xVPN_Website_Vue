@@ -19,7 +19,7 @@ const props = defineProps(['prices'])
       </li>
     </ul>
     <button
-      className="absolute w-full left-0 rounded-[53px] bottom-[-10px] py-[21px] bg-[#FCBB14] text-[30px] leading-10  duration-[0.3s] transition-all"
+      className="absolute w-full left-0 rounded-[23px] bottom-[-10px] py-[21px] bg-[#FCBB14] text-[30px] leading-10  duration-[0.3s] transition-all"
     >
       {{ props.prices.buttonTitle }}
     </button>
@@ -32,7 +32,7 @@ const props = defineProps(['prices'])
   transition: all 0.3s ease-in-out;
 }
 .price_card_shadow:hover {
-  box-shadow: 0px 0px 60px 0px #b6c3eb80;
+  box-shadow: 0px 0px 20px 5px #b6c3eb80;
   transition: all 0.3s ease-in-out;
 }
 </style>

@@ -68,7 +68,7 @@ const prices2 = {
   ]
 }
 const prices3 = {
-  buttonTitle: 'Stage 2',
+  buttonTitle: 'Stage 3',
   roads: [
     {
       title: 'Live Network',
