@@ -39,7 +39,8 @@
 <style>
 .hero-section {
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
-  background-image: url('/hero-bg.png');
+  background-image: url('/hero-bg.jpeg');
 }
 </style>
