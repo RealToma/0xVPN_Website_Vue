@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 <template>
-  <section id="desktop-client" class="px-5 w-full pt-[155px] pb-[70px] bg-[#657fcb]">
-    <div class="container lg:px-0 mt-24">
+  <section id="desktop-client" class="px-5 w-full pt-[100px] pb-[70px] bg-[#657fcb]">
+    <div class="container lg:px-0">
       <h1
         class="text-center font-semibold leading-[87px] text-4xl lg:text-[64px] text-white"
         data-aos="fade-up"
