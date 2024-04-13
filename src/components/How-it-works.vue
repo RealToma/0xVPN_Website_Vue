@@ -38,7 +38,7 @@ import ArrowRight from './icons/Arrow-right.vue'
           <a
             href="https://t.me/zerox_vpn_bot"
             target="_blank"
-            class="max-w-[300px] rounded-[27px] mt-[0px] text-white flex text-xl leading-[16px] items-center justify-between border border-white px-[30px] py-[12px] hover:bg-white hover:text-[#121829] duration-[0.3s] transition-all"
+            class="max-w-[260px] rounded-[27px] mt-[0px] text-white flex text-xl leading-[16px] items-center justify-between border border-white px-[30px] py-[12px] hover:bg-white hover:text-[#121829] duration-[0.3s] transition-all"
           >
             Become a Node
             <ArrowRight />
