@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { ref, onMounted } from 'vue'
 import AOS from 'aos'
 import Header from './components/Header.vue'
 import Hero from './components/Hero.vue'
@@ -9,24 +10,48 @@ import RoadMap from './components/Road-map.vue'
 import FAQ from './components/Faq.vue'
 import Footer from './components/Footer.vue'
 
-import { onMounted } from 'vue'
 import DesktopClient from './components/DesktopClient.vue'
+import LoadingSpinner from './components/LoadingSpinner.vue';
+
+const isLoading = ref(true);
+
+const loadWebsite = async () => {
+  // Simulate loading website with a delay
+  await new Promise(resolve => setTimeout(resolve, 1500));
+
+  // Set isLoading to false once website is loaded
+  isLoading.value = false;
+};
+
+
 onMounted(() => {
+  loadWebsite();
   AOS.init()
-})
+});
+
+
+// const components = {
+//   LoadingSpinner
+// }
+
 </script>
+
 <template>
   <div>
-    <Header />
-    <Hero />
-    <DesktopClient />
-    <Howitworks />
-    <Token />
-    <Collaboration />
-    <RoadMap />
-    <FAQ />
-    <Footer />
+    <LoadingSpinner v-if="isLoading" />
+    <div v-show="!isLoading">
+      <Header />
+      <Hero />
+      <DesktopClient />
+      <Howitworks />
+      <Token />
+      <Collaboration />
+      <RoadMap />
+      <FAQ />
+      <Footer />
+    </div>
   </div>
+
 </template>
 
 <style>
