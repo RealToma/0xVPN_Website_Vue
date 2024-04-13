@@ -1,6 +1,6 @@
 <script setup lang="ts"></script>
 <template>
-  <section id="desktop-client" class="px-5 w-full pt-[155px] pb-[70px] bg-[#1D1C3E]">
+  <section id="desktop-client" class="px-5 w-full pt-[155px] pb-[70px] bg-[#657fcb]">
     <div class="container lg:px-0 mt-24">
       <h1
         class="text-center font-semibold leading-[87px] text-4xl lg:text-[64px] text-white"
@@ -13,8 +13,10 @@
         data-aos="fade-up"
       >
         Our client is available for both Windows & Mac.
-        <br><br>
-        This is a BETA version, please <a href="https://t.me/zerox_vpn_support" target="_blank" class="underline">report</a> any bugs to our team.
+        <br /><br />
+        This is a BETA version, please
+        <a href="https://t.me/zerox_vpn_support" target="_blank" class="underline">report</a> any
+        bugs to our team.
       </p>
 
       <div
