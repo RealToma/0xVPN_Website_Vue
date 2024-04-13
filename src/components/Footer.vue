@@ -1,7 +1,11 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import TwitterIcon from './icons/Twitter.vue'
+import DextoolsIcon from './icons/Dextools.vue'
+import TelegramIcon from './icons/Telegram.vue'
+</script>
 <template>
   <footer class="bg-[#1B255C] hidden xl:block py-16">
-    <div class="gap-40 flex container">
+    <div class="container gap-40 flex">
       <div class="w-[40%]">
         <a href="#">
           <img src="/logo.png" class="w-auto" />
@@ -13,7 +17,7 @@
         >
       </div>
       <div class="">
-        <h2 class="text-[15px] font-light text-white opacity-60">Quick Links</h2>
+        <h2 class="text-2xl font-semibold text-[#657fcb]">Quick Links</h2>
         <ul class="flex flex-col mt-6 font-light text-white gap-2">
           <li>
             <a href="#P2P" class="transition-all hover:text-[#FCBB14]">P2P</a>
@@ -33,7 +37,7 @@
         </ul>
       </div>
       <div class="">
-        <h2 class="text-[15px] font-light text-white opacity-60">Documentation</h2>
+        <h2 class="text-2xl font-semibold text-[#657fcb]">Documentation</h2>
         <ul class="flex flex-col mt-6 font-light text-white gap-2">
           <li>
             <a
@@ -46,7 +50,7 @@
         </ul>
       </div>
       <div class="">
-        <h2 class="text-[15px] font-light text-white opacity-60">Socials</h2>
+        <h2 class="text-2xl font-semibold text-[#657fcb]">Socials</h2>
         <ul class="flex gap-x-[0px] mt-[15px]">
           <a
             href="https://t.me/zerox_vpn_portal"
@@ -141,6 +145,16 @@
               </g>
             </svg>
           </a>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <hr class="mt-[61px]" />
+      <div>
+        <ul class="flex flex-col gap-4 lg:flex-row mt-8 mb-9 text-white">
+          <li>
+            <a href="#">© 2024 0xVPN.org – All right reserved.</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -247,6 +261,8 @@
           </ul>
         </div>
       </div>
+    </div>
+    <div class="container">
       <hr class="mt-[61px]" />
       <div>
         <ul class="flex flex-col gap-4 lg:flex-row mt-8 mb-9 text-white">
