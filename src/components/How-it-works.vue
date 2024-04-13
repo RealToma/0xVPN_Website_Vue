@@ -14,7 +14,7 @@ import ArrowRight from './icons/Arrow-right.vue'
         class="text-center font-medium text-xl lg:text-[26px] text-white mt-[28px] mb-[52px]"
         data-aos="fade-up"
       >
-        0xVPN P2P Network is composed of two main components: the client and the node.
+        0xVPN P2P Distributed Network is composed of two main components: clients and nodes.
       </p>
 
       <div
@@ -23,34 +23,34 @@ import ArrowRight from './icons/Arrow-right.vue'
       >
         <div class="w-full lg:w-full xl:w-1/2">
           <p
-            class="font text-xl lg:text-[30px] leading-7 lg:leading-[41px] mt-[53px] mb-[70px] text-white"
+            class="font text-xl lg:text-[30px] leading-7 lg:leading-[41px] mb-[50px] text-white"
           >
             The client is the software that you install on your device to connect to the VPN network
-            and browse the web securely. <br />
+            and browse the web securely.
             <br />
             <br />
+            The node is the software that you install on your server to lend your internet connection to the
+            network, and in return, earn rewards.
             <br />
-            The node is the software that you install on your server to lend your bandwidth to the
-            network, and in return, you earn rewards. <br />
             <br />
-            <br />
-            Our goal: to become the first VPN P2P decentralized network, accessible worldwide,
+            Our goal: to become the first L2-Chain for a decentralized P2P VPN, accessible worldwide,
             without censorship and respecting your privacy, where clients bid for node
-            usage, creating a decentralized VPN marketplace.
+            usage, creating a decentralized VPN marketplace.
           </p>
-          <button
-            class="rounded-[27px] mt-[76px] text-white flex text-xl leading-[26px] items-center justify-between border border-white px-[30px] py-[12px] hover:bg-white hover:text-[#121829] duration-[0.3s] transition-all"
+          <a
+            href="https://t.me/zerox_vpn_bot"
+            target="_blank"
+            class="rounded-[27px] mt-[0px] text-white flex text-xl leading-[16px] items-center justify-between border border-white px-[30px] py-[12px] hover:bg-white hover:text-[#121829] duration-[0.3s] transition-all"
           >
             Become a Node
-
             <ArrowRight />
-          </button>
+          </a>
         </div>
         <div class="w-full lg:w-full xl:w-1/2">
           <div
-            class="lg:w-full w-full xl:max-w-[748px] h-[532px] bg-[#1B255C] flex justify-center items-center rounded-[15px]"
+            class="lg:w-full w-full xl:max-w-[600px] h-[600px] bg-[#1B255C] flex justify-center items-center rounded-[15px]"
           >
-            <img src="/demo-img.png" alt="" class="w-full" />
+            <img src="/P2P.png" alt="" class="w-full rounded-[15px]" />
           </div>
         </div>
       </div>

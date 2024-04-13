@@ -6,8 +6,9 @@ import TelegramIcon from './icons/Telegram.vue'
 <template>
   <footer class="bg-[#1B255C] py-16">
     <div class="container px-2 lg:px-0">
-      <div class="grid px-0 grid-cols-1 gap-y-8 lg:grid-cols-4">
-        <div>
+      <div class="grid px-0 grid-cols-1 gap-y-8 text-center">
+      <!-- <div class="grid px-0 grid-cols-1 gap-y-8 lg:grid-cols-4"> -->
+        <!-- <div>
           <p class="text-[13px] font-light text-white opacity-60">Product</p>
           <div>
             <ul class="flex flex-col gap-4 font-normal text-[19px] leading-6 text-white mt-[15px]">
@@ -51,10 +52,10 @@ import TelegramIcon from './icons/Telegram.vue'
               </li>
             </ul>
           </div>
-        </div>
-        <div class="flex flex-col items-end">
-          <p class="text-[13px] font-light text-white opacity-60">social Media</p>
-          <ul class="flex gap-x-[44px] mt-[15px]">
+        </div> -->
+        <div class="flex flex-col items-start">
+          <p class="text-[15px] font-light text-white opacity-60">0xVPN Social Channels</p>
+          <ul class="flex gap-x-[0px] mt-[15px]">
             <!-- <li>
               <a href="https://t.me/zerox_vpn_portal" target="_blank"
                 class="transition-all hover:text-[#FCBB14] text-white">
@@ -73,7 +74,7 @@ import TelegramIcon from './icons/Telegram.vue'
               </a>
             </li> -->
             <a href="https://t.me/zerox_vpn_portal" target="_blank"
-              class="p-2 m-2 border-2 border-white rounded-full"><svg stroke="currentColor" fill="currentColor"
+              class="p-2 m-2 ml-0 border-2 border-white rounded-full"><svg stroke="currentColor" fill="currentColor"
                 stroke-width="0" viewBox="0 0 448 512"
                 class="transition-all duration-200 text-white group-hover:text-[#07091A]" height="20" width="20"
                 xmlns="http://www.w3.org/2000/svg">
@@ -130,14 +131,14 @@ import TelegramIcon from './icons/Telegram.vue'
       <div>
         <ul class="flex flex-col gap-4 lg:flex-row mt-8 mb-9 text-white">
           <li>
-            <a href="#">© 2024 0xVPN. All right reserved.</a>
+            <a href="#">© 2024 0xVPN.org – All right reserved.</a>
           </li>
-          <li>
+          <!-- <li>
             <a href="#">Privacy Policy</a>
           </li>
           <li>
             <a href="#">Terms of Service</a>
-          </li>
+          </li> -->
         </ul>
       </div>
     </div>

@@ -6,12 +6,16 @@
       </h3>
       <h1 data-aos="fade-up"
         class="leading-[50px] lg:leading-[87px] text-5xl lg:text-[64px] font-medium text-center text-white mt-[25px]">
-        Ecosystem collaboration
+        Ecosystem Collaboration
       </h1>
       <p data-aos="fade-up"
         class="text-center mt-[18px] font-medium leading-7 lg:leading-[35px] text-base lg:text-[26px] text-white">
-        The strength of VPN lies in collaboration. With partners, operators, and the wider crypto
+        The strength of 0xVPN lies in collaboration. With partners, operators, and the wider crypto
         community, we're forging an interconnected future for decentralized systems.
+        <br><br>
+        0xVPN Subscriptions Smart Contract has been
+        <a class="underline" target="_blank" href="https://etherscan.io/address/0x24c3484bdf9211eeaa17868df93a2a9413c79053#code">deployed on 6 chains</a>
+        for wider accessibility and to provide a seamless user experience.
       </p>
       <Vue3Marquee direction="reverse" gradient="true" :gradientColor="[27, 32, 97]" gradientLength="10%"
         gradientWith="140px">
@@ -78,6 +82,10 @@
           </div>
         </div>
       </Vue3Marquee>
+      <p class="text-center mt-[18px] font-medium leading-7 lg:leading-[35px] text-base lg:text-[26px] text-white">
+        <br><br>
+        We are aiming to become the first EVM-compatible Layer-2 VPN network, and use $VPN as the native token for our ecosystem, allowing developers to create an application layer on top of our decentralized VPN infrastructure.
+      </p>
     </div>
   </section>
 </template>
