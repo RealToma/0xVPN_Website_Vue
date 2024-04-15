@@ -16,17 +16,21 @@ import LoadingSpinner from './components/LoadingSpinner.vue';
 const isLoading = ref(true);
 
 const loadWebsite = async () => {
+
   // Simulate loading website with a delay
-  await new Promise(resolve => setTimeout(resolve, 1500));
+  await new Promise(resolve => {
+    setTimeout(resolve, 1500)
+  });
 
   // Set isLoading to false once website is loaded
   isLoading.value = false;
+
 };
 
 
 onMounted(() => {
+  AOS.init();
   loadWebsite();
-  AOS.init()
 });
 
 
@@ -39,7 +43,7 @@ onMounted(() => {
 <template>
   <div>
     <LoadingSpinner v-if="isLoading" />
-    <div v-show="!isLoading">
+    <div v-if="!isLoading">
       <Header />
       <Hero />
       <DesktopClient />

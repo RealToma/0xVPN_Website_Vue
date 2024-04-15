@@ -1,7 +1,4 @@
 <script setup lang="ts">
-import TwitterIcon from './icons/Twitter.vue'
-import DextoolsIcon from './icons/Dextools.vue'
-import TelegramIcon from './icons/Telegram.vue'
 import { ref } from 'vue'
 const open = ref(false)
 const setOpen = (value: boolean) => {
@@ -32,14 +29,11 @@ const setOpen = (value: boolean) => {
           <a href="#VPN" class="transition-all hover:text-[#FCBB14]">FAQ</a>
         </li>
         <li>
-          <a href="https://docs.0xvpn.org"
-            target="_blank" class="transition-all hover:text-[#FCBB14]">Docs</a>
+          <a href="https://docs.0xvpn.org" target="_blank" class="transition-all hover:text-[#FCBB14]">Docs</a>
         </li>
 
         <li>
-          <a
-            href="https://dashboard.0xvpn.org"
-            target="_blank"
+          <a href="https://dashboard.0xvpn.org" target="_blank"
             class="cursor-pointer py-4 px-[50px] py-[11px] bg-[#FCBB14] rounded-[14px] font-bold text-lg text-[#121829] hover:bg-white duration-[0.3s] transition-all">
             dApp
           </a>
@@ -70,8 +64,8 @@ const setOpen = (value: boolean) => {
             <a href="#VPN" @click="setOpen(!open)" class="transition-all hover:text-[#FCBB14]">FAQ</a>
           </li>
           <li>
-            <a href="https://docs.0xvpn.org"
-              target="_blank" @click="setOpen(!open)" class="transition-all hover:text-[#FCBB14]">Docs</a>
+            <a href="https://docs.0xvpn.org" target="_blank" @click="setOpen(!open)"
+              class="transition-all hover:text-[#FCBB14]">Docs</a>
           </li>
           <li class="w-full absolute bottom-10">
             <div class="flex flex-col items-center justify-end w-full">

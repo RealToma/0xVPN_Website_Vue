@@ -1,5 +1,5 @@
 <template>
-  <section id="docs" class="bg-[#1B255C] pt-[100px] pb-[70px]">
+  <section id="docs" class="bg-[#1B255C] pt-[110px] pb-[70px]">
     <div class="container px-2 lg:px-0">
       <h3
         data-aos="fade-up"
