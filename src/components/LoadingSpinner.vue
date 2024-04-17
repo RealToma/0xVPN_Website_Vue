@@ -7,6 +7,8 @@
     </div>
 </template>
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
 html {
     margin: 0;
 }
@@ -40,7 +42,7 @@ body {
     border: 3px solid rgba(255, 255, 255, 0.1);
     border-radius: 50%;
     text-align: center;
-    /* font-family: Garet; */
+    font-family: "Aldrich", sans-serif;
     font-size: 30px;
     font-weight: 700;
     color: white;

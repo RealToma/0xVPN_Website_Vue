@@ -61,6 +61,7 @@ onMounted(() => {
 <style>
 body {
   overflow-x: hidden;
+  background: rgba(0,4,13,1);
 }
 
 html {

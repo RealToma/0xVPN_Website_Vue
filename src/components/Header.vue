@@ -7,7 +7,7 @@ const setOpen = (value: boolean) => {
 </script>
 <template>
   <header class="w-full h-[100px] z-30 bg-[#1B255C] fixed top-0 border-b border-[#657fcb]">
-    <div class="container pr-6 lg:pr-0 flex justify-between items-center pt-5">
+    <div class="container pr-5 pl-5 lg:pr-0 lg:pl-0 flex justify-between items-center pt-5">
       <a href="#" class="z-10">
         <img src="/final-logo.png" width="160" alt="" />
       </a>
@@ -44,7 +44,7 @@ const setOpen = (value: boolean) => {
         <div class="w-full h-[5px] bg-white rounded-md"></div>
         <div class="w-full h-[5px] bg-white rounded-md"></div>
       </div>
-      <div class="fixed w-full lg:hidden top-0 h-screen bg-[#1B255C] flex justify-start px-14 transition-all"
+      <div class="fixed w-full lg:hidden top-0 h-screen bg-[#1B255C] flex justify-start pl-10 pr-10 transition-all"
         :class="{ 'left-0': open, '-left-full': !open }">
         <ul
           class="container flex flex-col h-full items-start justify-start pt-[155px] gap-[30px] text-white font-normal text-2xl relative">

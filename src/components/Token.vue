@@ -2,7 +2,7 @@
 import ArrowRight from './icons/Arrow-right.vue'
 </script>
 <template>
-  <section id="token" class="pt-[155px] pb-[70px] bg-[#1D1C3E]">
+  <section id="token" class="pb-[100px] pt-[50px] lg:pt-[50px] lg:pb-[150px] bg-[#1D1C3E] pr-5 pl-5 lg:pr-0 lg:pl-0">
     <div class="container px-2 lg:px-0">
       <h1 class="text-[40px] lg:text-[64px] leading-[40px] lg:leading-[87.42px] font-medium text-center text-white"
         data-aos="fade-up">
@@ -14,10 +14,10 @@ import ArrowRight from './icons/Arrow-right.vue'
       </p>
       <div class="w-full flex flex-col lg:flex-row gap-8">
         <div
-          class="w-full lg:w-[617px] flex justify-center items-center flex-col gap-[53px] h-[722px] bg-[#1B255C] rounded-[15px]">
+          class="w-full lg:w-[617px] flex justify-center items-center flex-col gap-[53px] p-[30px] bg-[#1B255C] rounded-[15px]">
           <img src="/chart.svg" width="250" alt="" />
           <div>
-            <ul data-aos="fade-up" class="font-medium text-[26px] text-white flex-col gap-[18px]">
+            <ul data-aos="fade-up" class="font-medium text-[20px] lg:text-[26px]  text-white flex-col gap-[18px]">
               <li class="flex gap-4 items-center">
                 <span class="block w-[32px] h-[28px] bg-[#344BFD]"></span>
                 80% Liquidity Pool
@@ -79,7 +79,7 @@ import ArrowRight from './icons/Arrow-right.vue'
               <ArrowRight />
             </button>
             <a href="https://www.etherscan.com/address/0xf898bae008cd85046431ab0a75f00689d6aa1b1c" target="_blank"
-              class="flex items-center max-w-full line-clamp-1 py-3 border px-[30px] bg-[#657FCB] border-white rounded-[27px] text-base lg:text-xl leading-[26px] font-medium text-white0">
+              class="flex items-center max-w-full line-clamp-1 py-3 border px-[30px] bg-[#657FCB] border-white rounded-[27px] text-[12px] lg:text-xl leading-[26px] font-medium text-white0">
               0xf898bae008cd85046431ab0a75f00689d6aa1b1c
             </a>
           </div>

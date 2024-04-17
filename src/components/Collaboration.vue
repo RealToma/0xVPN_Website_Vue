@@ -1,5 +1,5 @@
 <template>
-  <section id="docs" class="bg-[#1B255C] pt-[110px] pb-[70px]">
+  <section id="docs" class="bg-[#1B255C] pb-[100px] pt-[50px] lg:pt-[150px] lg:pb-[50px] pr-5 pl-5 lg:pr-0 lg:pl-0">
     <div class="container px-2 lg:px-0">
       <h3 data-aos="fade-up" class="text-center font-medium text-xl lg:text-[32px] leading-[43px] text-white">
         A Unified Vision
@@ -19,66 +19,66 @@
         for wider accessibility and to provide a seamless user experience.
       </p>
       <Vue3Marquee direction="reverse">
-        <div class="flex gap-y-[55px] gap-x-[36px] mt-[76px]">
+        <div class="flex gap-y-[55px] gap-x-[20px] lg:gap-x-[36px] mt-[76px]">
           <div
-            class="w-[189px] ml-[36px] border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]">
-            <img src="/pic-1.png" alt="" />
+            class="flex w-[120px] h-[120px]  lg:w-[180px] lg:h-[180px]   ml-[20px] lg:ml-[36px] border-[3px]  flex justify-center items-center border-white rounded-[20px]">
+            <img src="/pic-1.png" width="70%" alt="" />
           </div>
           <div
-            class="w-[189px] border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]">
-            <img src="/pic-2.png" alt="" />
+            class="flex w-[120px] h-[120px]  lg:w-[180px] lg:h-[180px]   border-[3px]  flex justify-center items-center border-white rounded-[20px]">
+            <img src="/pic-2.png" width="70%" alt="" />
           </div>
           <div
-            class="w-[189px] border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]">
-            <img src="/pic-3.png" alt="" />
+            class="flex w-[120px] h-[120px]  lg:w-[180px] lg:h-[180px]   border-[3px]  flex justify-center items-center border-white rounded-[20px]">
+            <img src="/pic-3.png" width="70%" alt="" />
           </div>
           <div
-            class="w-[189px] border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]">
-            <img src="/pic-4.png" alt="" />
+            class="flex w-[120px] h-[120px]  lg:w-[180px] lg:h-[180px]   border-[3px]  flex justify-center items-center border-white rounded-[20px]">
+            <img src="/pic-4.png" width="70%" alt="" />
           </div>
           <div
-            class="w-[189px] border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]">
-            <img src="/pic-5.png" alt="" />
+            class="flex w-[120px] h-[120px]  lg:w-[180px] lg:h-[180px]   border-[3px]  flex justify-center items-center border-white rounded-[20px]">
+            <img src="/pic-5.png" width="70%" alt="" />
           </div>
           <div
-            class="w-[189px] border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]">
-            <img src="/pic-6.png" alt="" />
+            class="flex w-[120px] h-[120px]  lg:w-[180px] lg:h-[180px]   border-[3px]  flex justify-center items-center border-white rounded-[20px]">
+            <img src="/pic-6.png" width="70%" alt="" />
           </div>
           <div
-            class="w-[189px] border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]">
-            <img src="/pic-7.png" alt="" />
+            class="flex w-[120px] h-[120px]  lg:w-[180px] lg:h-[180px]   border-[3px]  flex justify-center items-center border-white rounded-[20px]">
+            <img src="/pic-7.png" width="70%" alt="" />
           </div>
         </div>
       </Vue3Marquee>
       <Vue3Marquee>
-        <div class="flex gap-y-[55px] gap-x-[36px] mt-[76px]">
+        <div class="flex gap-y-[55px] gap-x-[20px] lg:gap-x-[36px] mt-[30px] lg:mt-[76px]">
           <div
-            class="w-[189px] ml-[36px] border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]">
-            <img src="/pic-1.png" alt="" />
+            class="flex w-[120px] h-[120px]  lg:w-[180px] lg:h-[180px]  ml-[20px] lg:ml-[36px]  border-[3px]  flex justify-center items-center border-white rounded-[20px]">
+            <img src="/pic-1.png" width="70%" alt="" />
           </div>
           <div
-            class="w-[189px] border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]">
-            <img src="/pic-2.png" alt="" />
+            class="flex w-[120px] h-[120px]  lg:w-[180px] lg:h-[180px]   border-[3px]  flex justify-center items-center border-white rounded-[20px]">
+            <img src="/pic-2.png" width="70%" alt="" />
           </div>
           <div
-            class="w-[189px] border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]">
-            <img src="/pic-3.png" alt="" />
+            class="flex w-[120px] h-[120px]  lg:w-[180px] lg:h-[180px]   border-[3px]  flex justify-center items-center border-white rounded-[20px]">
+            <img src="/pic-3.png" width="70%" alt="" />
           </div>
           <div
-            class="w-[189px] border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]">
-            <img src="/pic-4.png" alt="" />
+            class="flex w-[120px] h-[120px]  lg:w-[180px] lg:h-[180px]   border-[3px]  flex justify-center items-center border-white rounded-[20px]">
+            <img src="/pic-4.png" width="70%" alt="" />
           </div>
           <div
-            class="w-[189px] border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]">
-            <img src="/pic-5.png" alt="" />
+            class="flex w-[120px] h-[120px]  lg:w-[180px] lg:h-[180px]   border-[3px]  flex justify-center items-center border-white rounded-[20px]">
+            <img src="/pic-5.png" width="70%" alt="" />
           </div>
           <div
-            class="w-[189px] border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]">
-            <img src="/pic-6.png" alt="" />
+            class="flex w-[120px] h-[120px]  lg:w-[180px] lg:h-[180px]   border-[3px]  flex justify-center items-center border-white rounded-[20px]">
+            <img src="/pic-6.png" width="70%" alt="" />
           </div>
           <div
-            class="w-[189px] border-[3px] pt-[22px] pb-[33px] flex justify-center items-center border-white rounded-[20px]">
-            <img src="/pic-7.png" alt="" />
+            class="flex w-[120px] h-[120px]  lg:w-[180px] lg:h-[180px]   border-[3px]  flex justify-center items-center border-white rounded-[20px]">
+            <img src="/pic-7.png" width="70%" alt="" />
           </div>
         </div>
       </Vue3Marquee>

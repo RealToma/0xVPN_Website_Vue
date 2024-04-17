@@ -2,9 +2,9 @@
 import Accordion from './Accordion.vue'
 </script>
 <template>
-  <section id="VPN" class="bg-[#1D1C3E] pb-[147px] pt-[155px] px-2 lg:px-0">
-    <div class="container">
-      <h1 data-aos="fade-up" class="text-center font-bold leading-[87px] text-3xl lg:text-[64px] text-white">
+  <section id="VPN" class="bg-[#1D1C3E] pb-[0px] pt-[100px] lg:pt-[150px] lg:pb-[150px] px-0 lg:px-0">
+    <div class="container pr-5 pl-5 lg:pr-0 lg:pl-0">
+      <h1 data-aos="fade-up" class="text-center font-bold leading-[87px] text-[50px] lg:text-[64px] text-white">
         F.A.Q
       </h1>
       <div class="flex flex-col lg:flex-col xl:flex-row gap-4 xl:gap-[79px] mt-[38px]">
@@ -38,7 +38,7 @@ import Accordion from './Accordion.vue'
 <style scoped>
 @keyframes shadow-pulse {
   0% {
-    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0));
   }
 
   50% {
@@ -46,7 +46,7 @@ import Accordion from './Accordion.vue'
   }
 
   100% {
-    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0));
   }
 }
 

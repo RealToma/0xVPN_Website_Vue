@@ -2,18 +2,19 @@
 import ArrowRight from './icons/Arrow-right.vue'
 </script>
 <template>
-  <section id="P2P" class="px-5 w-full pt-[155px] pb-[70px] bg-[#1D1C3E]">
+  <section id="P2P"
+    class="px-5 w-full pb-[50px] pt-[100px] lg:pt-[100px] lg:pb-[150px] bg-[#1D1C3E] pr-5 pl-5 lg:pr-0 lg:pl-0">
     <div class="container lg:px-0">
       <h1 class="text-center font-semibold leading-[87px] text-4xl lg:text-[64px] text-white" data-aos="fade-up">
         How does it work?
       </h1>
-      <p class="text-center font-medium text-xl lg:text-[26px] text-white mt-[28px] mb-[52px]" data-aos="fade-up">
+      <p class="text-center font-medium text-[15px] lg:text-[26px] text-white mt-[28px] mb-[52px]" data-aos="fade-up">
         0xVPN P2P Distributed Network is composed of two main components: clients and nodes.
       </p>
 
       <div data-aos="fade-up" class="flex flex-col md:flex-col gap-28 lg:flex-col xl:flex-row items-center">
         <div class="w-full lg:w-full xl:w-1/2">
-          <p class="font text-xl lg:text-[30px] leading-7 lg:leading-[41px] mb-[50px] text-white">
+          <p class="font text-[18px] lg:text-[30px] leading-7 lg:leading-[41px] mb-[50px] text-white">
             The client is the software that you install on your device to connect to the VPN network
             and browse the web securely.
             <br />
@@ -32,9 +33,8 @@ import ArrowRight from './icons/Arrow-right.vue'
             <ArrowRight />
           </a>
         </div>
-        <div class="w-full lg:w-full xl:w-1/2 mt-5">
-          <div
-            class="lg:w-full w-full xl:max-w-[600px] h-[600px] bg-[#1B255C] flex justify-center items-center rounded-[15px]">
+        <div class="w-full lg:w-full xl:w-1/2 mt-0 lg:mt-5">
+          <div class="lg:w-full w-full xl:max-w-[600px] bg-[#1B255C] flex justify-center items-center rounded-[15px]">
             <img src="/P2P.png" alt="" class="w-full h-full object-cover rounded-[15px]" />
           </div>
         </div>

@@ -98,7 +98,8 @@ const prices3 = {
 }
 </script>
 <template>
-  <section id="roadmap" className="w-full px-8 lg:px-0 pt-[155px] pb-[45px] bg-[#1D1C3E]">
+  <section id="roadmap"
+    className="w-full pr-5 pl-5 lg:pr-0 lg:pl-0 pb-[50px] pt-[50px] lg:pt-[150px] lg:pb-[150px] bg-[#1D1C3E]">
     <div className="container px-2 lg:px-0">
       <h1 data-aos="fade-up" className="text-center font-bold text-5xl lg:text-[64px] leading-[87px] text-white">
         Roadmap

@@ -8,7 +8,7 @@ const { title, content, leading } = defineProps(['leading', 'title', 'content'])
 </script>
 
 <template>
-  <div data-aos="fade-up" class="w-full pl-10 border-[#152329] border-[2px]">
+  <div data-aos="fade-up" class="w-full  pl-0 lg:pl-10 border-[#152329] ">
     <div class="w-full relative flex items-center py-2 lg:py-[26px] overflow-hidden cursor-pointer select-none"
       @click="setIsOpen(!isOpen)">
       <p class="text-6 leading-[28px] text-white">{{ leading }}</p>

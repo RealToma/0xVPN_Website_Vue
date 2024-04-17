@@ -1,11 +1,8 @@
 <script setup lang="ts">
-import TwitterIcon from './icons/Twitter.vue'
-import DextoolsIcon from './icons/Dextools.vue'
-import TelegramIcon from './icons/Telegram.vue'
 </script>
 <template>
   <footer class="bg-[#1B255C] hidden xl:block py-16">
-    <div class="container gap-40 flex">
+    <div class="container gap-40 flex ">
       <div class="w-[40%]">
         <a href="#">
           <img src="/logo.png" class="w-auto" />
@@ -14,7 +11,7 @@ import TelegramIcon from './icons/Telegram.vue'
           VPN</a>
       </div>
       <div class="">
-        <h2 class="text-2xl font-semibold text-[#657fcb]">Quick Links</h2>
+        <h2 class="text-2xl font-semibold text-[#657fcb] whitespace-nowrap">Quick Links</h2>
         <ul class="flex flex-col mt-6 font-light text-white gap-2">
           <li>
             <a href="#P2P" class="transition-all hover:text-[#FCBB14]">P2P</a>
@@ -107,8 +104,8 @@ import TelegramIcon from './icons/Telegram.vue'
       </ul>
     </div>
   </footer>
-  <footer class="bg-[#1B255C] py-16 block xl:hidden">
-    <div class="container px-2 lg:px-0">
+  <footer class="bg-[#1B255C]  py-10 lg:py-16 block xl:hidden">
+    <div class="container pr-5 pl-5 lg:pr-0">
       <div class="grid px-0 grid-cols-1 gap-y-8 text-center">
         <div class="flex flex-col items-start">
           <p class="text-[15px] font-light text-white opacity-60">0xVPN Social Channels</p>
@@ -169,10 +166,10 @@ import TelegramIcon from './icons/Telegram.vue'
         </div>
       </div>
     </div>
-    <div class="container">
-      <hr class="mt-[61px]" />
+    <div class="container pr-5 pl-5 ">
+      <hr class="mt-[30px] lg:mt-[61px]" />
       <div>
-        <ul class="flex flex-col gap-4 lg:flex-row mt-8 mb-9 text-white">
+        <ul class="flex flex-col gap-4 lg:flex-row mt-6 lg:mt-8 mb-0 lg:mb-9 text-white">
           <li>
             <a href="#">© 2024 0xVPN.org – All right reserved.</a>
           </li>
